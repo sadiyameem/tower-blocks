@@ -21,12 +21,12 @@ h1 {
     display: flex;
 }
 
-#box div {
+#box > div {
     display: flex;
     flex-direction: column;
 }
 
-#box div div {
+#box > div > div {
     height: 40px;
     width: 30px;
     margin: 0%;
