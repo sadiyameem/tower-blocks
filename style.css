@@ -13,7 +13,7 @@
     justify-content: center;
     flex-direction: column;
     gap: 1rem;
-    background-color: white;
+    background-color: transparent;
 }
 
 .game {
@@ -21,12 +21,12 @@
     height: 550px;
     margin-left: 720px;
     border: 5px solid black;
-    background-image: url("./images/brick.jpg");
+    background-image: url("./images/winter.jpg");
     background-size: cover;
 }
 
 .block {
-    background-image: url("./images/wall.jpg");
+    background-image: url("./images/snow-bricks.jpg");
     background-size: cover;
     height: 15px;
     width: 150px;
@@ -65,6 +65,15 @@ button {
     cursor: pointer;
 }
 
+#btn {
+    background-color: red;
+    padding: 5px;
+    font-size: 30px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
 @media (max-width:600px) {
     .game {
         width: 350px;
@@ -91,4 +100,11 @@ button {
             left: 0%;
         }
     }
+}
+
+h1 {
+    margin-top: 15px;
+    margin-left: 840px;
+    transform: translateY(130px);
+    font-size: 40px;
 }
