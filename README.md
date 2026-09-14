@@ -19,3 +19,4 @@
 - I learned how to use animations and other sizing elements.
 
 # Image
+<img width="2938" height="1436" alt="Screenshot 2026-09-14 at 7 16 46 PM" src="https://github.com/user-attachments/assets/7723e142-ed2b-4bb6-a361-50e009d4c19d" />
